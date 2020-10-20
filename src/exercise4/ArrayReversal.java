@@ -16,10 +16,10 @@ public class ArrayReversal {
         for (int index = 0; index < letters.length; index++) {
             letters[index] = input.next().charAt(0);
         }
+          int j = 0;
         for (int index = letters.length -1; index >= 0; index--) {
-            for (int j = 0; j < letters.length; j++) {
                 reversedLetters[j] = letters[index];
-            }
+                j++;
         }
         System.out.println("Reversed symbols: "+Arrays.toString(reversedLetters));
     }
