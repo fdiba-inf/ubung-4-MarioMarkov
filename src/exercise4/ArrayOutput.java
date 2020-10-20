@@ -14,11 +14,13 @@ public class ArrayOutput {
         
          
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = input.nextInt();
-              for (int j = 0 ; j < i; j++) {
-                System.out.print(" ");
-              }
-            System.out.println(numbers[i]);
+          numbers[i] = input.nextInt();
+          
+          for (int j = 0 ; j < i; j++) {
+             System.out.print(" ");
+          }
+
+          System.out.println(numbers[i]);
         }
 
         

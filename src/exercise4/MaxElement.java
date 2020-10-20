@@ -16,8 +16,8 @@ public class MaxElement {
        for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextDouble();
         }
-        for (int index = 1; index <= numbers.length; index++) {
-            if(numbers[index]>numbers[index-1]){
+        for (int index = 0; index < numbers.length; index++) {
+            if(numbers[index]>maxnumber){
                maxnumber =numbers[index];
             }
         }
